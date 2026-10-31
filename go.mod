@@ -1,3 +1,3 @@
-module github.com/bored-ben/Ghostcam-Recompile
+module github.com/bored-ben/dahua-security-analysis
 
 go 1.26
