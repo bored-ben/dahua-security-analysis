@@ -1,0 +1,20 @@
+# Build output / binaries (rebuild with `go build`)
+*.exe
+*.dll
+/GhostCam
+*.test
+*.out
+
+# Scan results / harvested data — never commit
+pwned.txt
+snapshots/
+import_*.xml
+input.txt
+/[0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]_*/
+
+# Local tooling / editor / OS
+.claude/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
