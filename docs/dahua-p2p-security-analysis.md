@@ -8,6 +8,12 @@
 > here should be used against devices you do not own or lack written authorization
 > to test. The vulnerabilities discussed were assigned CVEs and patched by the
 > vendor; the value here is in understanding *why* they happened and how to defend.
+>
+> **Attribution.** The protocol details described here (P2P signaling constants,
+> the SDK login‑hash construction) were derived from studying the original
+> GPL‑licensed [GhostCam](https://github.com/eekeri/GhostCam) by eekeri
+> ("badinteger"). Credit for that reverse‑engineering belongs to its author; this
+> document is a defensive analysis of that work. See [`NOTICE`](../NOTICE).
 
 ---
 

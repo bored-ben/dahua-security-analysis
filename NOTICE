@@ -1,0 +1,22 @@
+Attribution
+===========
+
+This repository builds on the original "GhostCam" project by eekeri
+("badinteger"), which is licensed under the GNU General Public License v3.0:
+
+    Original project: https://github.com/eekeri/GhostCam
+    Author:           eekeri ("badinteger")
+    License:          GPL-3.0
+
+The understanding of Dahua's P2P cloud signaling, the SDK (TCP/37777) login
+hashing scheme, and the behaviour of the referenced CVEs that informs the
+analysis in docs/dahua-p2p-security-analysis.md was derived from studying that
+original GPL-licensed project. Credit for that protocol reverse-engineering
+belongs to its author.
+
+This repository is a defensive derivative. The security write-up in
+docs/ and the single-device hardening tool in cmd/dahua-audit are original work
+by the maintainer of this repository and contain no offensive capability (no
+P2P/cloud reachability, no serial enumeration, no CVE exploitation, and no
+account creation). As a derivative of GPL-3.0 work, this repository is likewise
+distributed under GPL-3.0 (see LICENSE).

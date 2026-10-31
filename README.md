@@ -57,6 +57,18 @@ If you run Dahua gear, the high‑value steps (full list in
 4. Put cameras on an isolated VLAN; block TCP/37777 at the perimeter.
 5. Audit local accounts and remove any you didn't create.
 
+## Credits & attribution
+
+This project builds on the original **[GhostCam](https://github.com/eekeri/GhostCam)**
+by **eekeri ("badinteger")** (GPL‑3.0). The understanding of Dahua's P2P
+signaling, the SDK login‑hash scheme, and the referenced CVEs that informs the
+analysis here was derived from that original project — credit for the protocol
+reverse‑engineering belongs to its author.
+
+The defensive write‑up in [`docs/`](docs/dahua-p2p-security-analysis.md) and the
+[`dahua-audit`](cmd/dahua-audit) hardening tool are original work and contain no
+offensive capability. See [NOTICE](NOTICE) for full attribution.
+
 ## License
 
-See [LICENSE](LICENSE).
+GPL‑3.0, as a derivative of the original GPL‑3.0 project. See [LICENSE](LICENSE).
