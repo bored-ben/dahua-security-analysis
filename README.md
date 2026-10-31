@@ -1,5 +1,9 @@
 # Dahua P2P / SDK — Security Analysis & Hardening Audit
 
+[![CI](https://github.com/bored-ben/dahua-security-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/bored-ben/dahua-security-analysis/actions/workflows/ci.yml)
+[![Go](https://img.shields.io/badge/Go-1.26%2B-00ADD8?logo=go&logoColor=white)](https://go.dev)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue)](LICENSE)
+
 A defensive security‑research project on Dahua‑style IP cameras and NVRs:
 
 1. **[A technical analysis](docs/dahua-p2p-security-analysis.md)** of the Dahua
